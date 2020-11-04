@@ -19,22 +19,35 @@ module.exports = {
     },
 
     async store(req, res) {
-        const { user_id } = req.params
-        const { name} = req.body
+        try {
+            const { user_id } = req.params
+            const { name} = req.body
 
-        const user = await User.findByPk(user_id)
+            const user = await User.findByPk(user_id)
 
-        if (!user) {
-            return res.status(500).json({ error: "User not found" })
+            if (!user) {
+                return res.status(500).json({ error: "User not found" })
+            }
+
+            const [ tech ] = await Tech.findOrCreate({
+                where: { name }
+            })
+
+            await user.addTech(tech)
+
+            return res.status(200).json(tech)
+        } catch (error) {
+            let err = []
+            for (let cont = 0; cont < error.errors.length; cont++) {
+                err.push({
+                    Campo: error.errors[cont].path,
+                    Mensagem: error.errors[cont].message
+                }) 
+            }
+            
+            return res.status(400).json({erros: err})
         }
-
-        const [ tech ] = await Tech.findOrCreate({
-            where: { name }
-        })
-
-        await user.addTech(tech)
-
-        return res.json(tech)
+        
     },
 
     async delete(req, res) {

@@ -3,10 +3,6 @@ const User = require('../model/User')
 
 module.exports = {
     async show(req, res) {
-
-
-
-
         const users = await User.findAll({
             attributes: ['name', 'email'],
             where: {
@@ -14,14 +10,15 @@ module.exports = {
                     [Op.iLike]: '%@gmail.com'
                 }
             },
+            
             include: [
-                { association: 'addresses', where: { street: 'Rua Joao Silva Das Neves Gomes' } },
+                { association: 'addresses', required: false, where: { street: 'Rua Joao Silva Das Neves Gomes' } },
                 { 
                     association: 'techs',
                     required: false,
                     where: {
                         name: {
-                            [Op.iLike]: '%.js'
+                            [Op.iLike]: '%'
                         }
                     } 
                 }
