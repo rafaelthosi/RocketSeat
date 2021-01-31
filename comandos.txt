@@ -10,6 +10,8 @@ git add . - adiciona todos os arquivos alterados ao git
 
 git commit -m "adicionado *arquivo*" - commita as alterações e cria um ponto na história
 
+git commit -am "adicionado *arquivo*" - adiciona as alterações e já faz commit
+
 // "q" para sair do git log, "h" para ajuda
 
 git log - mostra os pontos na história
@@ -32,6 +34,8 @@ git merge *nome branch* - une a branch atual com outra
 
 git branch -D *nome branch* - deleta uma branch
 
+git checkout -b *nome branch* - cria uma nova branch e já a seleciona 
+
 git remote add origin *link repositório* - adiciona um repositório remoto
 
 git push -u origin master - primeiro push ao repositório
@@ -39,4 +43,6 @@ git push -u origin master - primeiro push ao repositório
 git push - da push no repositório
 
 git config credential.helper store - salva o login feito
+
+git clone *link repositório* - clona um repositorio existente
 
