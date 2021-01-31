@@ -5,6 +5,8 @@ git init - Inicia repositório
 # *arquivo* é um exemplo
 git add *arquivo" - adiciona o arquivo ao git
 
+git add . - adiciona todos os arquivos alterados ao git
+
 git commit -m "adicionado *arquivo*" - commita as alterações e cria um ponto na história
 
 # "q" para sair do git log, "h" para ajuda
