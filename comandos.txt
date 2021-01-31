@@ -49,3 +49,7 @@ git clone *link repositório* - clona um repositorio existente
 git pull - pega as alterações de um repositório remoto
 
 git checkout *nº commit* -- *nome arquivo* - resgata um arquivo de um commit 
+
+git config --local user.name "*username*" - adiciona o username do github
+
+git config --local user.email "*email*" - adiciona o email do github
