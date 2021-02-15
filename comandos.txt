@@ -53,3 +53,5 @@ git checkout *nº commit* -- *nome arquivo* - resgata um arquivo de um commit
 git config --local user.name "*username*" - adiciona o username do github
 
 git config --local user.email "*email*" - adiciona o email do github
+
+git rm -rf --cached folder1/ - remove arquivo/pasta do monitoramento
