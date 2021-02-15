@@ -2,6 +2,10 @@
 
 [link da aula](https://www.youtube.com/watch?v=2alg7MQ6_sI&ab_channel=Rocketseat)
 
+# Observação
+
+Commits após o #20 (5cc8ee152e12552c5be434d505b978b3f0d4e237) não são material da aula
+
 ## Aprendizado
 
  - [x] Você deseja criar pontos na história da produção do seu projeto.
