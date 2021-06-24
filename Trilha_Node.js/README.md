@@ -2,7 +2,7 @@
 
 ## Dia 1
 
-### Introdução a TypeScrypt
+### Introdução a TypeScrypt:
 ```
 // nomeDaVariavel: tipoDaVariavel
 
@@ -23,5 +23,5 @@ enviarEmail({
     nome: "teste"
 })
 ```
-### Dica para instalar depêndencia de dev
+### Dica para instalar depêndencia de dev:
 "-D" para instalar uma dependência apenas para desenvolvimento usando yarn. Exemplo: "yarn add typescript -D"
