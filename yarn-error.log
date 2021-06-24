@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\L4E-02\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express pg pg-store sequelize
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Cloud Foundry;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Cloud Foundry;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\L4E-02\AppData\Local\Microsoft\WindowsApps;C:\Users\L4E-02\AppData\Roaming\npm;C:\Users\L4E-02\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin;;C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\L4E-02\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pg-store: Not found
+      at Request.params.callback [as _callback] (C:\Users\L4E-02\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\L4E-02\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (C:\Users\L4E-02\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (C:\Users\L4E-02\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  {
+    "name": "RocketSeat-SQLNode",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
