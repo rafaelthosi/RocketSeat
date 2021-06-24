@@ -25,3 +25,9 @@ enviarEmail({
 ```
 ### Dica para instalar depêndencia de dev:
 "-D" para instalar uma dependência apenas para desenvolvimento usando yarn. Exemplo: "yarn add typescript -D"
+
+### Iniciar Typescript:
+iniciar: yarn tsc --init
+*Dica: mudar o "strict" do arquivo que gerar para false
+
+converter para js: yarn tsc 
