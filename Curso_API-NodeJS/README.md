@@ -1,0 +1,1 @@
+## [clique aqui](https://www.youtube.com/playlist?list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp) para ver o curso
