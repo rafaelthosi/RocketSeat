@@ -35,3 +35,7 @@ Converter para js: yarn tsc
 Instalar biblioteca responsavel por converter código ts para uma forma que o Node seja capaz de entender: yarn add ts-node-dev -D
 
 adicionar script no package.json: "dev": "ts-node-dev src/server.ts" 
+
+
+## Dia 2
+
