@@ -1,5 +1,5 @@
 # Aula da RocketSeat sobre Node.js e Docker:
-[link da aula](https://www.youtube.com/watch?v=AVNADGzXrrQ&t=896s)
+[link da aula](https://www.youtube.com/watch?v=AVNADGzXrrQ)
 
 # Comandos usados (terminal):
 ```
