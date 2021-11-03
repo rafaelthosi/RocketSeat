@@ -1,3 +1,5 @@
+## Obs: Pulei para o último módulo de desafios por já ter uma boa base de JavaScript
+
 # JavaScript Core
 
 * Linguagem de progamção que roda no Navegador do usuário (front-end)
