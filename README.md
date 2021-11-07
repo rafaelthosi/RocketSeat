@@ -1,7 +1,7 @@
 <h1 align="center">
   <p>Repositório com todo o conteúdo da <b>Rocketseat</b> que fiz</p>
   <a href="https://www.rocketseat.com.br/" target=”_blank”>
-      <img alt="Cod3r" src="https://miro.medium.com/max/1200/1*fs0ScMc45X9QEwno8G414A.png" />
+      <img alt="RocketSeat" src="https://miro.medium.com/max/1200/1*fs0ScMc45X9QEwno8G414A.png" />
   </a>
 </h1>
 
