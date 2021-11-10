@@ -9,6 +9,6 @@
 ## Ignite
 ### Node
 - Chapter I
-- - [Desafio 1](https://github.com/rafaelthosi/rocketseat-chapter1-desafio1)
-- - [Desafio 2](https://github.com/rafaelthosi/rocketseat-chapter1-desafio2)
-- - [Desafio 3](https://github.com/rafaelthosi/rocketseat-chapter1-desafio3)
+- - [Desafio 1](https://github.com/rafaelthosi/ignite-node-chapter1-desafio1)
+- - [Desafio 2](https://github.com/rafaelthosi/ignite-node-chapter1-desafio2)
+- - [Desafio 3](https://github.com/rafaelthosi/ignite-node-chapter1-desafio3)
