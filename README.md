@@ -10,3 +10,5 @@
 ### Node
 - Chapter I
 - - [Desafio 1](https://github.com/rafaelthosi/rocketseat-chapter1-desafio1)
+- - [Desafio 2](https://github.com/rafaelthosi/rocketseat-chapter1-desafio2)
+- - [Desafio 3](https://github.com/rafaelthosi/rocketseat-chapter1-desafio3)
