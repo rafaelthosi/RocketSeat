@@ -17,6 +17,7 @@
   },
   "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
   "rules": {
+    "array-callback-return": 0,
     "no-use-before-define": "off",
     "prettier/prettier": "error",
     "camelcase": "off",
