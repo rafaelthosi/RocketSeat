@@ -14,4 +14,4 @@
 - - [Desafio 3](https://github.com/rafaelthosi/ignite-node-chapter1-desafio3)
 - Chapter II
 - - [Desafio 1](https://github.com/rafaelthosi/ignite-node-chapter2-desafio1)
-- - [Desafio 1](https://github.com/rafaelthosi/ignite-node-chapter2-desafio2)
+- - [Desafio 2](https://github.com/rafaelthosi/ignite-node-chapter2-desafio2)
