@@ -4,7 +4,8 @@ services:
   app:
     build: . # mesmo que rodar docker build -t rentx .
     container_name: rentx # nome do container
+    restart: always
     ports: 
       - 3333:3333 # porta do projeto e do container
     volumes:
-      - .:/usr/app # - {o que será passado para o diretorio(no caso: tudo)}:{diretorio}
+      - .:/usr/app/rentx # - {o que será passado para o diretorio(no caso: tudo)}:{diretorio}

@@ -5,7 +5,7 @@ FROM node
 WORKDIR /usr/app
 
 # O arquivo (package.json) irá para o diretório de atual (/usr/app)
-COPY package.json ./
+COPY package.json .
 
 # Comando executado pelo docker após ter o package, irá instalar as dependencias
 RUN npm install
