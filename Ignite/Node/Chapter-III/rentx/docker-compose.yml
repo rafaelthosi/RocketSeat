@@ -20,7 +20,7 @@ services:
     ports: 
       - 3333:3333 # porta do projeto e do container
     volumes:
-      - .:/usr/app/rentx # - {o que será passado para o diretorio(no caso: tudo)}:{diretorio}
+      - .:/usr/app # - {o que será passado para o diretorio(no caso: tudo)}:{diretorio}
     links:
       - database_ignite
     depends_on:
