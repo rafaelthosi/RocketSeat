@@ -19,6 +19,7 @@ class CarsRepository implements ICarsRepository {
     description,
     fine_amount,
     license_plate,
+    specifications,
     name,
     id,
   }: ICreateCarDTO): Promise<Car> {
@@ -29,6 +30,7 @@ class CarsRepository implements ICarsRepository {
       description,
       fine_amount,
       license_plate,
+      specifications,
       name,
       id,
     });
