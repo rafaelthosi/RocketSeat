@@ -4,7 +4,7 @@ export class CreateRentals1650633208602 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
-        name: "rantals",
+        name: "rentals",
         columns: [
           { name: "id", type: "uuid", isPrimary: true },
           {
@@ -23,6 +23,7 @@ export class CreateRentals1650633208602 implements MigrationInterface {
           {
             name: "end_date",
             type: "timestamp",
+            isNullable: true,
           },
           {
             name: "expected_return_date",
@@ -31,6 +32,7 @@ export class CreateRentals1650633208602 implements MigrationInterface {
           {
             name: "total",
             type: "numeric",
+            isNullable: true,
           },
           {
             name: "created_at",
@@ -66,6 +68,6 @@ export class CreateRentals1650633208602 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropTable("rantals");
+    await queryRunner.dropTable("rentals");
   }
 }
