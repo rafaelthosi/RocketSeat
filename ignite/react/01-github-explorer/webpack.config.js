@@ -1,5 +1,6 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ReactRefresherWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
@@ -15,19 +16,28 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   devServer: {
-    static: path.resolve(__dirname, 'public')
+    static: path.resolve(__dirname, 'public'),
+    hot: true
   },
   plugins: [
+    isDevelopment && new ReactRefresherWebpackPlugin(), // para usar o ternario sem o OU (:). Porém, se não for development, retornará false, que não é um plugin, por isso é usado o filter abaixo, ele filtra e tira esse valor.
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
     })
-  ],
+  ].filter(Boolean),
   module: {
     rules: [
       {
         test: /\.jsx$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
+        use: {
+          loader: 'babel-loader',
+          options: {
+            plugins: [
+              isDevelopment && require.resolve('react-refresh/babel')
+            ].filter(Boolean)
+          }
+        }
       },
       {
         test: /\.scss$/,
